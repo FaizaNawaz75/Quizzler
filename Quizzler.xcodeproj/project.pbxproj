@@ -56,15 +56,39 @@
 		20617BEF29C0558D0081C9B8 /* Quizzler */ = {
 			isa = PBXGroup;
 			children = (
-				20617BF029C0558D0081C9B8 /* AppDelegate.swift */,
-				20617BF229C0558E0081C9B8 /* SceneDelegate.swift */,
-				20617BF429C0558E0081C9B8 /* ViewController.swift */,
-				20617BF629C0558E0081C9B8 /* Main.storyboard */,
-				20617BF929C055910081C9B8 /* Assets.xcassets */,
-				20617BFB29C055910081C9B8 /* LaunchScreen.storyboard */,
+				20617C0629C0561F0081C9B8 /* SupportingFiles */,
+				20617C0529C056060081C9B8 /* StoryBoards */,
+				20617C0429C055A10081C9B8 /* ViewControllers */,
 				20617BFE29C055910081C9B8 /* Info.plist */,
 			);
 			path = Quizzler;
+			sourceTree = "<group>";
+		};
+		20617C0429C055A10081C9B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				20617BF429C0558E0081C9B8 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		20617C0529C056060081C9B8 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				20617BFB29C055910081C9B8 /* LaunchScreen.storyboard */,
+				20617BF629C0558E0081C9B8 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		20617C0629C0561F0081C9B8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				20617BF929C055910081C9B8 /* Assets.xcassets */,
+				20617BF029C0558D0081C9B8 /* AppDelegate.swift */,
+				20617BF229C0558E0081C9B8 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
